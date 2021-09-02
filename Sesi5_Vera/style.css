@@ -1,0 +1,157 @@
+body{
+    margin:0;
+    background-color:rgba(242, 242, 242, 1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    color: grey;
+}
+
+nav{
+    height:50px;
+    width: 100%;
+    top:0;
+    z-index: 10;
+    background-color:white;
+    box-shadow: 0 8px 8px -4px rgba(128, 128, 128, 0.24);
+    position: fixed;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-right:50px;
+    padding: 15px;
+    direction: rtl;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    color: gray;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+    margin:0;
+}
+
+li a:hover {
+    background-color: #EEEEEE;
+    opacity: 0.5;
+    color: black;
+}
+
+li a:active {
+    color: rgba(0, 0, 0, 0.521);
+}
+
+.content{
+    /* padding: 0; */
+    margin:90px 70px 10px 35px;
+}
+
+label{
+    font-weight: bold;
+    font-size: 15px;
+}
+input{
+    width: 100%;
+    padding :5px;
+    margin-bottom:15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    margin:0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+.form{
+    background-color: white;
+    margin-top: 35px;
+    border-radius: 2px;
+}
+
+img{
+    border-radius:50%;
+    margin:10px
+}
+
+.profil{
+    background-color: white;
+    border-radius: 5px;
+    padding:10px;
+    padding-top: 20px;
+
+}
+
+.profil-main{
+    position:absolute;
+    width: 200px;
+    display:inline-block;
+    padding: 10px 120px 10px 15px;
+    border-right: 2px solid rgba(128, 128, 128, 0.123);
+}
+
+.profil-label{
+    position:absolute;
+    display:inline-block;
+    left: 575px;
+    top:100px;
+    font-weight: bold;
+}
+
+.profil-label p{
+    color:black;
+}
+
+.profil-detail{
+    position:absolute;
+    display:inline-block;
+    left: 800px;
+    top:100px;
+}
+
+.btn{
+    padding:10px 20px ;
+}
+
+.kontak{
+    background-color: blue;
+    border-color: blue;
+    border-radius: 4px;
+    margin-right: 5px;
+    color:white;
+}
+
+.kontak:hover{
+    border:none;
+    box-shadow: 0 0 5px 4px rgb(0, 38, 255);
+}
+
+.resume{
+    background-color: white;
+    border-radius: 4px;
+    border-color: green;
+    color: green;
+}
+
+.resume:hover{
+    box-shadow: 0 0 5px 4px green;
+}
+
+
+
