@@ -1,0 +1,14 @@
+Deklarasi:
+. Menyiapkan variabel jari-jari, Luas, Keliling dan phi
+. Menetapkan nilai phi dengan nilai 3.14
+
+Input:
+. Input nilai jari-jari dari user
+
+Proses:
+. Menghitung luas lingkaran dengan rumus Luas= phi*jari-jari*jari-jari
+. Menghitung keliling lingkaran dengan rumus Keliling= 2*phi*jari-jari
+
+Output:
+. Mencetak hasil perhitungan Luas lingkaran
+. Mencetak hasil perhitungan Keliling lingkaran

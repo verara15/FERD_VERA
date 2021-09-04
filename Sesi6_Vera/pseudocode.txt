@@ -1,0 +1,10 @@
+STORE "R" with any number
+STORE "Luas" with any value
+STORE "Keliling" with any value
+STORE "phi" with 3.14
+CALCULATE "phi" multiple "R" multiple "R"
+SET "Luas" value with previous calculation result
+CALCULATE 2 multiple "phi" multiple "R"
+SET "Keliling" value with previous calculation result 
+DISPLAY "Luas" 
+DISPLAY "Keliling"
